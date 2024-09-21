@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: black;  
+    display: flex;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    background-color:transparent;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+}
+.logo a{
+    text-decoration: none;
+    font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-size: xx-large;
+  font-style: normal;
+  background: radial-gradient(at bottom right,#FAFAFA,  #FF4081);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo a:hover{
+    background: radial-gradient(at top left,#FAFAFA,  #FF4081);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-list{
+    display: flex;
+
+}
+.nav-list ul{
+    display: flex;
+    gap: 3rem;
+}
+.nav-list ul li{
+    list-style: none;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list ul li a:hover{
+    background: radial-gradient(at bottom right,#FAFAFA,  #FF4081);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left{
+    width: 70%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+}
+.icons{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 5rem;
+    
+}
+.icons .fa-brands{
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+    background: radial-gradient(at top left, #FAFAFA,  #FF4081);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icons .fa-brands:hover{
+    background: radial-gradient(at bottom right, #FAFAFA,  #FF4081);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contant{
+    display: flex;
+    flex-direction: column;
+         margin-left: 4rem;
+        /* margin-top: -1rem; */
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    width: 60;
+   height: 100vh;
+}
+h4{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+}
+span{
+    color: #E53935;
+    font-weight: 700;
+}
+h1{
+    color: #E53935;
+    margin: .5rem 0 1.5rem 0;
+}
+p{
+    width: 60%;
+    font-size: large;
+    margin-bottom: 2rem;
+}
+.btn :nth-child(1 ){
+    border: 1px solid red;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4rem;
+    font-size: 1.3rem;
+    background: radial-gradient(at top left, #FAFAFA,  #FF4081);
+    color: black;
+    font-weight: 600;
+}
+.btn :nth-child(2){
+    border: 1px solid red;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4rem;
+    font-size: 1.3rem;
+    background: radial-gradient(at top left, #FAFAFA,  #FF4081);
+    color: black;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.contant .btn :nth-child(1):hover{
+    background: radial-gradient(at bottom right,#FAFAFA,  #FF4081);}
+    .contant .btn :nth-child(2):hover{
+        background: radial-gradient(at bottom right,#FAFAFA,  #FF4081);}
+.right{
+    width: 30%;
+    height: 100vh;
+    background: linear-gradient( black, #F50057);
+     justify-content: center;
+     align-items: center;
+     /* top: o;
+     left: 50%;
+     transform: translateX(-50%); */
+}
+.circle{
+    aspect-ratio: 1;
+position: absolute;
+ border-radius: 50%;
+ /* top: 0;
+ left: -50;
+ transform:translate(-50%,) ;
+ margin-top: 10rem;
+ margin-left: -15rem; */
+ top: 50%;
+ left: 70%;
+ transform:translate(-50%, -50%) ;
+}
+.circle:nth-child(1){
+    background: black;
+width: 38rem;
+/* top: -4rem;
+
+left: -50;
+transform: translate(-11%); */
+
+}
+.circle:nth-child(2){
+    background-image:url(asthatic.jpg)  ;
+    width: 30rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1rem solid white;
+    box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff,
+    0 0 2rem #3877ff, inset 0 0 2rem #3877ff,
+    0 0 4rem #3877ff, inset 0 0 4rem #3877ff;
+}
